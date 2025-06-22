@@ -1,5 +1,5 @@
 import express from 'express';
-import {client} from '@repo/db/client';
+import {client} from '@repo/db/client'; // Adjust the import path as necessary
 const app=express();
 
 app.use(express.json());
